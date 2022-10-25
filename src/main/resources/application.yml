@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    sensor-call-retries-count: 3
+    sensor-call-retry-interval: 10000
+  data:
+    mongodb:
+      database: springTest
+      host: localhost
+      port: 27017
+  jackson:
+    default-property-inclusion: non-null
